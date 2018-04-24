@@ -6,9 +6,4 @@ sljedeće informacije: ime, prezime, username, password, e-mail, rola (administr
 korisnik).
 Za artikal je bitno naziv artikla, cijena i tko i kada je dodao.
 Možete koristiti bilo koji PHP MVC framework (najpoželjnije je Codeigniter), ili pak napraviti u
-"čistom PHP-u". Potrebno je poslati:
- Screenshotove - pregleda svih korisnika, unosa korisnika (kao administrator), te pregled,
-dodavanje i uređivanje artikala
- Program - samo PHP datoteke, ukoliko se služite frameworkom poslati samo controllere,
-modele i view-e
- Stukturu baze podataka u MySQL-u
+"čistom PHP-u".
