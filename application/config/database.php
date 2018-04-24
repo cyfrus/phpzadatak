@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'eu-cdbr-west-02.cleardb.net',
+	'username' => 'b0c0d8a7070aee',
+	'password' => '44044451',
 	'database' => 'zadatak',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
