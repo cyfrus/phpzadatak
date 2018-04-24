@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a, .kune {
+    color: #5352ed !important;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #2f3542 !important;
+}   
+.btn-dark {
+    background-color: #747d8c !important;
+    border: 2px solid #5352ed;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main_container {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.main_container .row {
+    height: 100%;
+    width: 100%;
+}
+.table .thead-dark th {
+    background-color: #2f3542;
+}
+.side_container {
+    height: 100%;
+    border: 1px solid black !important;
+    background-color: #2f3542;
+    color: white;
+    padding: 20px;
+    min-width: 250px;
+}
+.artikal_naziv {
+    font-size: 1.3em;
+}
+.side_container div, .side_container h3 {
+    margin: 15px;
+}
+.content_container, .edit_artikal_container {
+    padding: 20px;
+}
+.content_container h3, .content_container > div, .dodao_container {
+    margin: 20px;   
+}
+.artikal_container div {
+    margin-top: 25px;
+}
+.artikal {
+    float: left;
+    padding: 20px;
+    min-width: 250px;
+    margin: 20px;
+    box-shadow: 0px 0px 1px gray;
+}
+.artikal_details {
+    width: 400px;
+    overflow: auto;
+    margin: 20px;
+}
+.artikal_details div {
+    margin: 40px 0px;
+    overflow: auto;
+}
+.date_added {
+    font-style: italic;
+}
+
+.edit_btn, .delete_btn {
+    margin: 20px 20px 20px 0px;
+    border: 1px solid #5352ed;
+    padding: 15px 30px;
+    display:inline-block;
+    border-radius: 5px;
+    background-color: white;
+    color: #5352ed;
+}
+
+.edit_btn:hover, .delete_btn:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 3px 
+}
+.delete_artikal_form {
+    display: inline-block;
+    background-color: white !important;
+}
+.remove_btn {
+    background-color: white;
+    border: 1px solid #5352ed;
+    padding: 6px 15px;
+    display: inline;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 5px;
+    color: #5352ed;
+}
+.remove_btn_class {
+    display: inline;
+}
+.login_div {
+    border: 1px solid #5352ed;
+    padding: 70px 70px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.login_div input, .login_div label, .add_user_div input, .add_user_div label, .add_artikal_div input, .add_artikal_div label, .edit_user_container input, .edit_user_container label {
+    margin: 5px;
+}
+.login_div label {
+    font-weight: bold;
+}
+.control_link {
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+.korisnik > div {
+    margin: 10px 10px 10px 0px;
+}
+.cijena {
+    font-size: 1.3em;
+}
+.edit_button {
+    border: 1px solid #5352ed;
+    margin-right: 10px;
+}
+
+.edit_button:hover, .remove_btn:hover {
+    box-shadow: 0px 0px 5px #5352ed;
+}
+.error_container {
+    color: #c0392b;
+    margin-top: 20px;
+}
+.submit_btn {
+    margin-top: 20px !important;
+}
