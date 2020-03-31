@@ -16,3 +16,7 @@ Language: English
 Task:
 You need to build application for logging in users, adding users and items using PHP programming language and MSSQL for database. Administrator can add new users and items and users who are not administrators can add only new items and edit them. See list of all articals but cannot see list of all users. Every user must have following informations:  Name, Surname, Password, E-mail, Role (admin or regular user). Items have name, price and when it was added and by who.
 Application can be built in any PHP MVC framework (preferably Codeigniter framework) or in "clean" PHP.
+
+
+Application was built using Codeigniter framework.
+Link:  https://codeigniter.com/
